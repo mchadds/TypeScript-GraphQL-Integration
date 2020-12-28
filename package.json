@@ -1,0 +1,30 @@
+{
+  "name": "typescript-graphql-integration",
+  "version": "1.0.0",
+  "description": "Exploring the integration of TypeScript and GraphQL using TypeGraphQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "node dist/server.js",
+    "watch-node": "nodemon dist/server.js",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchadds/TypeScript-GraphQL-Integration.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "GraphQL",
+    "TypeGraphQL",
+    "Node"
+  ],
+  "author": "mchadds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mchadds/TypeScript-GraphQL-Integration/issues"
+  },
+  "homepage": "https://github.com/mchadds/TypeScript-GraphQL-Integration#readme"
+}
